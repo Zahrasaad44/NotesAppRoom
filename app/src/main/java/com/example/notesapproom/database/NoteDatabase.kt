@@ -28,7 +28,7 @@ abstract class NoteDatabase: RoomDatabase() {
                     context.applicationContext,
                     NoteDatabase::class.java,
                     "Notes"
-                ).fallbackToDestructiveMigration() //Destroys(deletes) old com.example.notesapproom.database on version change
+                ).fallbackToDestructiveMigration() //Destroys(deletes) old database on version change
                     .build()  // To create new one
                 INSTANCE = instance
                 return instance
