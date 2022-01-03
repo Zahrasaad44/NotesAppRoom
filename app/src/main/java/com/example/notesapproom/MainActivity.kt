@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
      * This project makes Room work without a View Model, the Recycler View is only updated
      * each time the screen is rotated. The solutions I tried to update the RV immediately didn't work,
      * but calling fetchNote on add/update/delete functionalities worked
-     * View Models and Live Data allow us to update the RV each time we make a change to our com.example.notesapproom.database.
+     * View Models and Live Data allow us to update the RV each time we make a change to our database.
      */
 
 
@@ -163,7 +163,5 @@ class MainActivity : AppCompatActivity() {
         alert.setTitle("Delete Confirmation")
         alert.show()
     }
-
-
 
 }

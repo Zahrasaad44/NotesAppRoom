@@ -47,7 +47,4 @@
         android:inputType="textMultiLine"
         android:hint="Edit Note..." />
 
-
-
-
 </LinearLayout>
